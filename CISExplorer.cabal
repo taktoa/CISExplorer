@@ -26,7 +26,7 @@ source-repository head
     type:            git
     location:        https://github.com/taktoa/CISExplorer
 
-executable TSBannerGen
+executable CISExplorer
   main-is:             Main.hs
   --  default-extensions: BangPatterns, OverloadedStrings, TupleSections
   build-depends:       base < 5
